@@ -1,0 +1,47 @@
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f4f4f9;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    #bars {
+      display: flex;
+      align-items: flex-end;
+      height: 300px;
+      width: 80%;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+      background: #fff;
+      padding: 5px;
+    }
+    .bar {
+      flex: 1;
+      margin: 0 2px;
+      background: #4caf50;
+      transition: 0.3s all;
+    }
+    .bar.active {
+      background: #ff5722;
+    }
+    .controls {
+      display: flex;
+      gap: 10px;
+    }
+    button, select {
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #6200ea;
+      color: white;
+    }
+    button:hover, select:hover {
+      opacity: 0.9;
+    }
